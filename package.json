@@ -1,0 +1,33 @@
+{
+  "name": "graphql-weather-api",
+  "version": "1.0.0",
+  "description": "A GraphQL Wrapper for the Open Weather Map API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "GraphQL",
+    "server",
+    "open weather map",
+    "data",
+    "API",
+    "testing",
+    "apollo",
+    "prototyping"
+  ],
+  "author": "Konstantin Münster",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.16.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

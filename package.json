@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "dev": "nodemon -r dotenv/config index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -r dotenv/config index.js"
   },
   "keywords": [
     "weather",
@@ -25,9 +24,7 @@
     "apollo-server": "^2.16.0",
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
-    "graphql": "^15.3.0"
-  },
-  "devDependencies": {
+    "graphql": "^15.3.0",
     "nodemon": "^2.0.4"
   }
 }
